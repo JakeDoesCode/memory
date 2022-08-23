@@ -1,0 +1,17 @@
+.cardContainer {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  max-height: 250px;
+  max-width: 250px;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
